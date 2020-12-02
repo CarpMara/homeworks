@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # diamond-gatherer
 
 # Curs 1
@@ -17,12 +16,3 @@
 - Draw a shape in canvas.
 - Draw an image in canvas.
 - JS events keydown, click, etc.
-
-# Curs 3
-- Client & Server
-- Node JS, NPM
-- Websockets
-- Create/Join Game
-=======
-# HomeworksSV
->>>>>>> d49a2988de553274ae8194646ef2b6c7163d9124
