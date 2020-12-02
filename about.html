@@ -1,0 +1,320 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Formular</title>
+
+</head>
+
+<body>
+
+    <form action="">
+        <fieldset>
+
+            <legend><strong>Formular comanda machiaje</strong></legend>
+            <center>
+                <table id="form-table" border="1">
+                    <thead>
+                        <tr>
+                            <th colspan="2">
+                                <font size="7">Formular</font>
+                            </th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td style="vertical-align:initial;">
+                                <table id="form-table-user" bgcolor="#FFE4C4">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="6">Date personale:</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td>Nume</td>
+                                            <td><input id="fname" type="text" name="fname" maxlength="20"></td>
+                                            <td>Prenume</td>
+                                            <td><input id="sname" type="text" name="fname" maxlength="20"></td>
+                                            <td>Telefon</td>
+                                            <td><input id="Tel" type="text" name="fname" maxlength="20"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>E-mail:</td>
+                                            <td><input id="emaill" type="text" name="email" maxlength="60" value="carp_mara@yahoo.com"></td>
+
+                                            <td>
+                                                Sex
+                                                <td>
+                                                    <input type="radio" name="gender" value="m">Masculin
+                                                    <input type="radio" name="gender" value="f">Feminin
+                                                </td>
+
+                                                <td>CNP</td>
+
+                                                <td><input id="cnp" type="text" name="fname" maxlength="20"></td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td rowspan="3">Adresa</td>
+                                            <td colspan="2">Oraș:</td>
+                                            <td>
+
+                                                <select id="city">
+
+                                                    <option value="">
+                                                        Alege oraș
+                                                    </option>
+                                                    <option value="bc">
+                                                        București
+                                                    </option>
+                                                    <option value="bh">Oradea</option>
+                                                    <option value="bv">Brașov</option>
+                                                    <option value="cj">Cluj-Napoca</option>
+                                                    <option value="mm" selected>Baia Mare</option>
+                                                    <option value="sb">Sibiu</option>
+                                                    <option value="sj">Zalău</option>
+                                                    <option value="tm">Timișoara</option>
+
+                                                </select>
+                                            </td>
+                                            <td colspan="2"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan="2">Adresa 1:</td>
+                                            <td><input type="text" maxlength="35" name="adr1"></td>
+                                            <td colspan="2"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan="2">Adresa 2*:</td>
+                                            <td><input type="text" maxlength="35" name="adr2"></td>
+                                            <td colspan="2"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <td>
+                                    <table id="form-table-results" bgcolor="#A9A9A9">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="4">
+                                                    <font size="5">Detalii comanda</font>
+                                                </th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr>
+                                                <td>Firma:</td>
+                                                <td>
+                                                    <select id="car">
+                                                    <option value="">Choose</option>
+                                                    <option value="aud1">Mac</option>
+                                                    <option value="bmw1">Sephora</option>
+                                                    <option value="dac1">Estee Lauder</option>
+                                                    <option value="mrc1">Maybelline New York</option>
+                                                </select>
+                                                </td>
+
+                                                <td>Cod produs:</td>
+                                                <td><input id="cod" type="text" name="codd" value="1"></td>
+                                            </tr>
+
+
+
+                                            <tr>
+                                                <td>Experiența dumneavoastră legate de produsele noastre deja achiziționate</td>
+                                                <td colspan="3">
+                                                    <input type="radio" name="dexp" value="1">1
+                                                    <input type="radio" name="dexp" value="2">2
+                                                    <input type="radio" name="dexp" value="3">3
+                                                    <input type="radio" name="dexp" value="4">4
+                                                    <input type="radio" name="dexp" value="5" checked="checked">5
+                                                    <input type="radio" name="dexp" value="6">6
+                                                    <input type="radio" name="dexp" value="7">7
+                                                    <input type="radio" name="dexp" value="8">8
+                                                    <input type="radio" name="dexp" value="9">9
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Produse similare:</td>
+                                                <td colspan="3">
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><input type="checkbox" name="features" value="Rim">Creion de ochi</td>
+                                                                <td><input type="checkbox" name="features" value="Ruj">Ruj</td>
+                                                                <td><input type="checkbox" name="features" value="Tuș">Tuș</td>
+
+
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td><input type="checkbox" name="features" value="Creion de ochi">Rimel</td>
+                                                                <td><input type="checkbox" name="features" value="Highlighter">Highlighter</td>
+                                                                <td><input type="checkbox" name="features" value="Alte produse">Alte produse</td>
+
+                                                            </tr>
+
+
+                                                            <tr>
+
+                                                                <td><input type="checkbox" name="features" value="Tuș">Blush</td>
+                                                                <td><input type="checkbox" name="features" value="Luciu de buze">Luciu de buze</td>
+                                                                <td></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <table id="form-table-questions">
+                                    <thead>
+                                        <tr>
+                                            <th>Questions</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <ol type="1" start="1">
+                                                    <li>
+                                                        <b>Dispuneți de voucher?*</b><br>
+                                                        <input type="radio" name="buy" value="yes">Da
+                                                        <input type="radio" name="buy" value="no">Nu
+                                                    </li>
+
+                                                    <li>
+                                                        <b>Doriți să primiți notificări despre noile noastre produse?*</b><br>
+                                                        <input type="text" value="10000">
+                                                    </li>
+
+                                                    <li>
+                                                        <b>Ce părere aveți despre produsele noastre?*</b><br>
+                                                        <input type="text" maxlength="200" size="150">
+                                                    </li>
+
+                                                    <li>
+                                                        Ce părere aveți despre modul de livrare?*<br>
+                                                        <input type="text" maxlength="100" size="150">
+                                                    </li>
+                                                </ol>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <table id="form-table-comments" bgcolor="#008080">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="3">Observații</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+
+                                            <td>
+                                                <ul style="list-style-type:square;">
+                                                    <li>Livrare</li>
+                                                </ul>
+                                            </td>
+                                            <td>
+                                                <ul style="list-style-type:georgian;">
+                                                    <li>Produs</li>
+                                                </ul>
+                                            </td>
+                                            <td rowspan="2">
+                                                <img src="assets/cara_delevingne_rimmel_london_-_screenshot_-_h_2017.jpg" height="150" width="150" alt="poza">
+
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><textarea cols="40" rows="10"></textarea></td>
+                                            <td><textarea cols="40" rows="10"></textarea></td>
+
+
+
+                                        </tr>
+                                        <tr>
+
+                                            <td>
+
+                                                <a href="https://www.sephora.ro/">
+                                                    Sephora.ro
+                                                </a>
+
+
+
+                                            </td>
+                                            <td><a href="https://www.maccosmetics.com/">Maccosmetics.com</a></td>
+                                            <td><a href="https://www.rimmellondon.com/en_gb">Rimmellondon.com</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+                            <td colspan="2">
+                                <h3>Programul livrării</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <ol style="list-style-type:upper-roman;">
+                                    <li>LUNI – VINERI: 9:00 – 17:00 </li>
+                                    <li>SÂMBĂTĂ: 9:00 – 14:00 </li>
+                                </ol>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
+        </fieldset>
+    </form>
+    <h2>Opțiuni livrare</h2>
+    <ul>
+        <li>Fără livrare</li>
+        <li>
+            Fan-Curier
+            <ul>
+                <li>În 2 zile lucrătoare</li>
+                <li>Livrare la domiciliu</li>
+            </ul>
+        </li>
+        <li>Standard</li>
+    </ul>
+
+</body>
+
+</html>
